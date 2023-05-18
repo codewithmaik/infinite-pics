@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* Main Styling */
-
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +20,6 @@ body {
 }
 
 /* Header */
-
 #header h1 {
     text-align: center;
     padding: 2.4rem;
