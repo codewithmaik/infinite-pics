@@ -19,10 +19,28 @@ body {
     background-color: #f5f5f5;
 }
 
-/* Header */
+/* HEADER */
 #header h1 {
     text-align: center;
     padding: 2.4rem;
     font-size: 4rem;
     letter-spacing: 0.5rem;
+}
+
+/* MAIN */
+
+/* Loader */
+.loader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.loader img {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
