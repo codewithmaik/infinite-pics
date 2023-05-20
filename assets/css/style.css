@@ -55,6 +55,8 @@ body {
     width: 100%;
 }
 
+
+/* MEDIA QUERIES */
 /* Media Queries up to 1400px screens */
 @media screen and (max-width: 1400px) {
     .image-container {
