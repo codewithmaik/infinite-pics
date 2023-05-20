@@ -54,3 +54,10 @@ body {
     margin-top: 1.2rem;
     width: 100%;
 }
+
+/* Media Queries up to 1400px screens */
+@media screen and (max-width: 1400px) {
+    .image-container {
+        margin: 2.4rem 20%;
+    }
+}
