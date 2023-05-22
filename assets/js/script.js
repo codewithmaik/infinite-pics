@@ -13,7 +13,6 @@ async function getRandomPhotos() {
     try {
         const response = await fetch(apiUrl);
         photosArray = await response.json();
-        console.log(photosArray);
     } catch (error) {
         // Catch error here
     }
