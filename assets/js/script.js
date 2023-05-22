@@ -1,3 +1,8 @@
+const imageContainer = document.getElementById("image-container");
+const loader = document.getElementById("loader");
+
+let photosArray = [];
+
 // Unsplash API 
 const count = 10;
 const apiKey = "pSVNEmCLtniBwgXD8RNf9Ipilb_B-r6RBbpmZdwSu1c";
@@ -7,8 +12,8 @@ const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&coun
 async function getRandomPhotos() {
     try {
         const response = await fetch(apiUrl);
-        const data = await response.json();
-        console.log(data);
+        photosArray = await response.json();
+        console.log(photosArray);
     } catch (error) {
         // Catch error here
     }
