@@ -17,7 +17,6 @@ function imageLoaded() {
     imagesLoaded++;
     if (imagesLoaded === totalImages) {
         ready = true;
-        loader.hidden = true;
     }
 }
 
@@ -32,6 +31,7 @@ function setAttributes(element, attributes) {
 function displayPhotos() {
     imagesLoaded = 0;
     totalImages = photosArray.length;
+    loader.hidden = true;
     photosArray.forEach((photo) => {
         // Create <a> element and set attributes
         const item = document.createElement("a");
